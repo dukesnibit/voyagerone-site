@@ -52,3 +52,19 @@ V4 UPDATE — NEW YORK TIME + OFFICIAL X
 Countdown itself still targets the same absolute instant:
 2026-11-18 10:16:07 UTC
 = 2026-11-18 05:16:07 EST (New York)
+
+
+V5 UPDATE — COMMUNITY LINKS
+- Added Telegram to the top navigation.
+- Added a Join Telegram button beside Official X.
+- Added a new Official Links verification section.
+- Added official website, X, Telegram, and community bot links.
+- Added a security note for scam/contract verification.
+- Added Telegram + bot links to the footer.
+- Navbar CTA now jumps to the Official Links section.
+
+Official links:
+Website: https://voyagerone.space
+X: https://x.com/voyageronecoin
+Telegram: https://t.me/voyageronecoin
+Bot: https://t.me/voyageronecoinbot
