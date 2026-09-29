@@ -32,6 +32,7 @@
     <div class="nav-links">
       <a href="#story">Story</a>
       <a href="#milestone">Milestone</a>
+      <a href="#explorer">Explorer</a>
       <a href="#token">Token</a>
       <a href="#faq">FAQ</a>
       <a href="https://x.com/voyageronecoin" target="_blank" rel="noopener noreferrer">X ↗</a>
@@ -152,6 +153,55 @@
       </div>
     </section>
 
+
+    <section class="explorer section" id="explorer">
+      <div class="section-head reveal">
+        <div>
+          <div class="kicker">LIVE VOYAGER TRACKER</div>
+          <h2>How far is Voyager 1?</h2>
+        </div>
+        <p>
+          A live estimate of Voyager 1's distance from Earth as it approaches the
+          one-light-day milestone. The tracker is anchored to NASA's milestone distance
+          and uses an approximate outbound speed of 17 km/s.
+        </p>
+      </div>
+
+      <div class="tracker-shell reveal">
+        <div class="tracker-orbit">
+          <div class="tracker-earth"><span>EARTH</span></div>
+          <div class="tracker-path">
+            <div class="tracker-path-fill" id="trackerPathFill"></div>
+            <div class="tracker-probe" id="trackerProbe">V1</div>
+          </div>
+          <div class="tracker-target"><span>1 LIGHT-DAY</span></div>
+        </div>
+
+        <div class="tracker-primary">
+          <span>ESTIMATED DISTANCE FROM EARTH</span>
+          <strong id="distanceKm">--</strong>
+          <small>KILOMETERS</small>
+        </div>
+
+        <div class="tracker-stats">
+          <div><span>MILES</span><strong id="distanceMiles">--</strong></div>
+          <div><span>SIGNAL TIME • ONE WAY</span><strong id="signalTime">--</strong></div>
+          <div><span>PROGRESS TO 1 LIGHT-DAY</span><strong id="distanceProgress">--</strong></div>
+        </div>
+
+        <div class="tracker-note">
+          <span>ESTIMATE</span>
+          <p>
+            This visual tracker is an approximation for storytelling and may differ from
+            NASA's official cosmic odometer because Voyager's Earth-relative distance
+            changes with orbital geometry.
+          </p>
+          <a href="https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/"
+             target="_blank" rel="noopener noreferrer">NASA live mission status ↗</a>
+        </div>
+      </div>
+    </section>
+
     <section class="story section" id="story">
       <div class="story-grid">
         <div class="story-copy reveal">
@@ -194,7 +244,7 @@
           <div class="journey-point active">
             <div class="year">1977</div>
             <div>
-              <strong>Launch from Earth</strong>
+              <strong>Launch from Earth • Sept. 5</strong>
               <span>Voyager 1 begins its journey on September 5.</span>
             </div>
           </div>
@@ -202,7 +252,7 @@
           <div class="journey-point">
             <div class="year">1979</div>
             <div>
-              <strong>Jupiter flyby</strong>
+              <strong>Jupiter flyby • March 5</strong>
               <span>
                 A close encounter reveals new detail about Jupiter, its rings,
                 atmosphere, magnetic environment, and moons.
@@ -213,7 +263,7 @@
           <div class="journey-point">
             <div class="year">1980</div>
             <div>
-              <strong>Saturn & Titan</strong>
+              <strong>Saturn & Titan • Nov. 12</strong>
               <span>
                 Voyager 1 passes Saturn and Titan; the encounter bends its
                 trajectory out of the planets' main orbital plane.
@@ -224,7 +274,7 @@
           <div class="journey-point">
             <div class="year">1990</div>
             <div>
-              <strong>Pale Blue Dot</strong>
+              <strong>Pale Blue Dot • Feb. 14</strong>
               <span>
                 Voyager 1 turns its camera back toward home and helps create the
                 famous solar-system family portrait before its cameras are shut down.
@@ -235,7 +285,7 @@
           <div class="journey-point">
             <div class="year">2012</div>
             <div>
-              <strong>Interstellar space</strong>
+              <strong>Interstellar space • Aug. 2012</strong>
               <span>
                 Voyager 1 crosses the heliopause and becomes the first spacecraft
                 to enter interstellar space.
@@ -246,7 +296,7 @@
           <div class="journey-point future">
             <div class="year">2026</div>
             <div>
-              <strong>One light-day from Earth</strong>
+              <strong>One light-day • Nov. 18</strong>
               <span>
                 On November 18, Voyager 1 reaches the distance light travels in
                 24 hours — about 25.9 billion kilometers.
@@ -313,6 +363,109 @@
           <div class="probe-mark">V1</div>
           <span>VOYAGER 1</span>
         </div>
+      </div>
+    </section>
+
+
+    <section class="golden section" id="golden-record">
+      <div class="golden-grid">
+        <div class="golden-disc reveal" aria-hidden="true">
+          <div class="record-rings"></div>
+          <div class="record-center"><span>1977</span></div>
+          <div class="record-glyph glyph-a">⌁</div>
+          <div class="record-glyph glyph-b">✦</div>
+          <div class="record-glyph glyph-c">◌</div>
+        </div>
+
+        <div class="golden-copy reveal">
+          <div class="kicker">THE GOLDEN RECORD</div>
+          <h2>A message<br><span>from Earth.</span></h2>
+          <p>
+            Voyager 1 carries a 12-inch gold-plated copper record created as a time
+            capsule and message about life on Earth.
+          </p>
+          <p>
+            Its contents include greetings in 55 languages, sounds from life on Earth,
+            90 minutes of music, and 115 images chosen to represent our planet and civilization.
+          </p>
+
+          <div class="golden-facts">
+            <div><strong>55</strong><span>LANGUAGES</span></div>
+            <div><strong>115</strong><span>IMAGES</span></div>
+            <div><strong>90</strong><span>MINUTES OF MUSIC</span></div>
+          </div>
+
+          <a class="btn btn-ghost" href="https://science.nasa.gov/mission/voyager/voyager-1/"
+             target="_blank" rel="noopener noreferrer">Explore the Golden Record ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="mission-gallery section" id="gallery">
+      <div class="section-head reveal">
+        <div>
+          <div class="kicker">MISSION GALLERY</div>
+          <h2>Moments that<br>defined the journey.</h2>
+        </div>
+        <p>
+          A visual walk through Voyager 1's biggest chapters — from the outer planets
+          to the view back home and into interstellar space.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <a class="gallery-card reveal" href="https://science.nasa.gov/mission/voyager/images-voyager-took/"
+           target="_blank" rel="noopener noreferrer">
+          <div class="gallery-art"><div class="planet-jupiter"></div></div>
+          <div class="gallery-copy">
+            <span>1979 • JUPITER</span>
+            <strong>The giant world.</strong>
+            <p>Voyager 1's encounter transformed what humanity knew about Jupiter and its moons.</p>
+          </div>
+        </a>
+
+        <a class="gallery-card reveal" href="https://science.nasa.gov/mission/voyager/voyager-1/"
+           target="_blank" rel="noopener noreferrer">
+          <div class="gallery-art"><div class="planet-saturn"><i></i></div></div>
+          <div class="gallery-copy">
+            <span>1980 • SATURN & TITAN</span>
+            <strong>The turn outward.</strong>
+            <p>The Titan flyby redirected Voyager 1 above the planets' main orbital plane.</p>
+          </div>
+        </a>
+
+        <a class="gallery-card reveal" href="https://science.nasa.gov/mission/voyager/voyager-1s-pale-blue-dot/"
+           target="_blank" rel="noopener noreferrer">
+          <div class="gallery-art pale-blue-art">
+            <div class="sunbeam beam-1"></div>
+            <div class="sunbeam beam-2"></div>
+            <div class="pale-dot"></div>
+          </div>
+          <div class="gallery-copy">
+            <span>1990 • PALE BLUE DOT</span>
+            <strong>One last look home.</strong>
+            <p>Earth appeared as a tiny point of light in Voyager 1's solar-system family portrait.</p>
+          </div>
+        </a>
+
+        <a class="gallery-card reveal" href="https://science.nasa.gov/mission/voyager/"
+           target="_blank" rel="noopener noreferrer">
+          <div class="gallery-art interstellar-art">
+            <div class="star-stream s1"></div><div class="star-stream s2"></div><div class="star-stream s3"></div>
+            <div class="deep-probe">V1</div>
+          </div>
+          <div class="gallery-copy">
+            <span>2012 • INTERSTELLAR SPACE</span>
+            <strong>Beyond the heliosphere.</strong>
+            <p>Voyager 1 became the first spacecraft to enter interstellar space.</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="gallery-source reveal">
+        <span>Want the real imagery?</span>
+        <a href="https://science.nasa.gov/mission/voyager/images-voyager-took/"
+           target="_blank" rel="noopener noreferrer">Browse NASA's Voyager image archive ↗</a>
       </div>
     </section>
 

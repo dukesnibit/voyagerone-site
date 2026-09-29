@@ -68,3 +68,17 @@ Website: https://voyagerone.space
 X: https://x.com/voyageronecoin
 Telegram: https://t.me/voyageronecoin
 Bot: https://t.me/voyageronecoinbot
+
+
+V6 UPDATE — VOYAGER EXPLORER
+- Added live estimated Voyager 1 distance tracker.
+- Added estimated km, miles, one-way signal time, and progress to one light-day.
+- Added NASA live-status link and estimate disclaimer.
+- Polished the mission timeline with key dates.
+- Added dedicated Golden Record section.
+- Added cinematic mission gallery for Jupiter, Saturn/Titan, Pale Blue Dot, and interstellar space.
+- Added NASA archive links for real mission imagery.
+
+Tracker note:
+This is an estimate, not direct NASA telemetry. It is anchored to NASA's one-light-day
+milestone distance on Nov. 18, 2026 and uses an approximate 17 km/s outbound speed.
